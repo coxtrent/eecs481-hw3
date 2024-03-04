@@ -1,0 +1,74 @@
+
+    def visit_UnaryOp(self, node):
+        print("UnaryOp")
+        return node
+
+    def visit_IfExp(self, node):
+        print("IfExp")
+        return node
+
+    def visit_Dict(self, node):
+        print("Dict")
+        return node
+
+    def visit_List(self, node):
+        print("List")
+        return node
+
+    def visit_Tuple(self, node):
+        print("Tuple")
+        return node
+
+    def visit_Set(self, node):
+        print("Set")
+        return node
+
+    def visit_Lambda(self, node):
+        print("Lambda")
+        return node
+
+    def visit_Expr(self, node):
+        print("Expr")
+        return node
+
+    def visit_Attribute(self, node):
+        print("Attribute")
+        return node
+
+    def visit_FunctionDef(self, node):
+        print("FunctionDef")
+        return node
+
+    def visit_Assign(self, node):
+        print("Assign")
+        return node
+
+    def visit_While(self, node):
+        print("While")
+        return node
+
+    def visit_For(self, node):
+        print("For")
+        return node
+
+    def visit_With(self, node):
+        print("With")
+        return node
+
+    def visit_Call(self, node):
+        print("Call")
+        return node
+
+    def visit_Return(self, node):
+        return node
+    
+
+    def visit_Name(self, node):
+        print("Name")
+        return node
+
+    def visit_Constant(self, node):
+        print("Constant")
+        return node
+
+
